@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import NavBar from './NavBar/NavBar'
+import NavBar from './components/NavBar/NavBar'
+import * as React from 'react';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+
 function App() {
   return <>
   <header>
     <NavBar></NavBar>
   </header>
+  <ItemListContainer greeting={"saludo de bienvenida"}/>
   </>
 }
 
