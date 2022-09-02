@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import './App.css';
 import NavBar from './components/NavBar/NavBar'
 import * as React from 'react';
@@ -11,7 +10,7 @@ function App() {
   </header>
   <ItemListContainer greeting={"saludo de bienvenida"}/>
   </>
-=======
+}
 import logo from './logo.svg';
 import './App.css';
 
@@ -34,7 +33,7 @@ function App() {
       </header>
     </div>
   );
->>>>>>> 337c191c3c7ccc8cdf8a365e1bf04f988aed3f10
+
 }
 
 export default App;
