@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "clase2",
   "version": "0.1.0",
   "private": true,
@@ -14,16 +13,6 @@
     "bootstrap": "^5.2.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
-=======
-  "name": "clase-1",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
->>>>>>> 337c191c3c7ccc8cdf8a365e1bf04f988aed3f10
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"

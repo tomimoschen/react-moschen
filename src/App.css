@@ -36,3 +36,62 @@
     transform: rotate(360deg);
   }
 }
+
+.grupo-botones{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.boton {
+  display: block;
+  font-size: 1em;
+  width: 40%;
+  height: 2.5em;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color:#252628;
+  font-weight: normal;
+  margin: 5px auto;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.boton-eliminar {
+  display: block;
+  font-size: 1em;
+  width: 50%;
+  height: 2em;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgb(210, 50, 50);
+  font-weight: normal;
+  cursor: pointer;
+}
+.boton-restar, .boton-agregar{
+  display: block;
+  font-size: 1em;
+  width: 15%;
+  height: 2em;
+  margin: auto;
+  border: none;
+  border: 5px;
+  color: #222;
+  background-color: #cccc;
+  cursor: pointer;
+}
+.boton-restar:hover, .boton-agregar:hover{
+  background-color: #222;
+  color: #fff;
+  transition: .2s;
+}
+.boton-eliminar:active, .boton:active{
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.20), 
+  3px 3px 25px  rgba(0, 0, 0, 0.20);
+  transform: translate(0em, 0.1em);
+}
+.boton-restar:active, .boton-agregar:active{
+  transform: translate(0em, 0.1em);
+  background-color: #cccc;
+}
