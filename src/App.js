@@ -1,4 +1,4 @@
-import './App.css';
+import './styles/App.css';
 import NavBar from './components/NavBar/NavBar'
 import * as React from 'react';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
@@ -8,7 +8,7 @@ function App() {
   <header>
     <NavBar></NavBar>
   </header>
-  <ItemListContainer greeting={"saludo de bienvenida"}/>
+  <ItemListContainer greeting={"Productos"}/>
   </>
 }
 
